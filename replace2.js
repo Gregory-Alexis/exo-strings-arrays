@@ -2,6 +2,6 @@ let txt = `In cryptography, Alice and Bob are fictional characters commonly used
 As the use of Alice and Bob became more widespread, additional characters were added, sometimes each with a particular meaning.
 The most common characters are Alice and Bob. Eve, Mallory, and Trent are also common names.`
 
-txt = txt.replace(/Alice/gi, 'Grégory')
+txt = txt.replaceAll('Alice', 'Grégory')
 
 console.log(txt)
